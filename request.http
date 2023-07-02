@@ -1,0 +1,39 @@
+POST http://localhost:3001/product
+Content-Type: application/json
+
+{
+  "name":"blue pen",
+  "price": 3.00
+}
+
+###
+POST http://localhost:3001/product
+Content-Type: application/json
+
+{
+  "name":"red pen",
+  "price": 3.50
+}
+
+
+###
+
+GET http://localhost:3001/product
+
+###
+
+GET http://localhost:3001/product/b9f5d3c7-878a-4988-950f-6eb8bdf70587
+
+###
+
+PUT http://localhost:3001/product/9021f1be-c261-4857-be28-782a4fcb0e8a
+Content-Type: application/json
+
+{
+  "name":"blue pen",
+  "price": 9.00
+}
+
+###
+
+DELETE http://localhost:3001/product/9021f1be-c261-4857-be28-782a4fcb0e8a
