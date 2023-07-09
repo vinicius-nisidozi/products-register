@@ -2,8 +2,8 @@
 
 Key conceps:
 1. HTTP protocol
-2. API REST conceps
-3. Get, Post, Put and Delete functions
+2. API REST concepts
+3. Get, Post, Put and Delete methods
 4. Products IDs generation
 5. Node.js and Express.js Fundamentals
 6. File system concepts
